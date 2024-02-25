@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px 0px;
+}
+header{
+    background-color: rgb(73, 129, 231);
+    text-align: center;
+   padding: 5%;
+}
+nav{
+    background-color: white;
+    float: left;
+    height: 700px;
+    width: 20%;
+    padding: 20px;
+}
+nav li{
+    list-style-type: none;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+    text-decoration: none;
+    color: azure ; 
+}
+article{
+    background-color: white;
+   height: 700px;
+    width: 80%;
+    float: left;
+    
+}
+footer{
+    background-color:  rgb(40, 58, 228);
+    text-align: center;
+    padding: 2px;
+    color: black;
+}
+.btn{
+background-color: rgb(40, 58, 228);
+margin: auto;
+display:inline-block;
+padding: 10px 20px;
+width: 80%;
+margin-bottom: 30px;
+border-radius: 15px;
+transition: background-color 0.3s ease;
+}
+.btn:hover{
+    background-color: rgb(53, 157, 218);
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(22, 122, 235, 0.897);
+    margin: 20px;
+    width: 500px;
+    height: 550px;
+    
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .card-text {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .card-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #3b9ebd;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+   
+  .btn:hover {
+    background-color: #232ed196;
+  }
+  
+  .pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .dobozok{
+    display: flex;
+  }
